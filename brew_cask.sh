@@ -45,7 +45,6 @@ brew cask install docker
 brew cask install vlc
 
 # brew cask install synergy
-brew cask install magnet
 # brew cask install caffeine
 brew cask install karabiner-elements
 # brew cask install grammarly
