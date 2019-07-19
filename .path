@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+
+# Add `$(brew --prefix coreutils)/libexec/gnubin` to the `$PATH`.
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH";
+
+# Add `$(brew --prefix findutils)/libexec/gnubin` to the `$PATH`.
+# export PATH="$(brew --prefix findutils)/libexec/gnubin:$PATH";
+
+# Add `$(brew --prefix gnu-sed)/libexec/gnubin` to the `$PATH`.
+# export PATH="$(brew --prefix gnu-sed)/libexec/gnubin:$PATH";
+
+# Add `$(brew --prefix ruby)/bin` to the `$PATH`
+export PATH="$(brew --prefix ruby)/bin:$PATH";
+
+# Add `$(brew --prefix grep)/libexec/gnubin` to the `$PATH`
+export PATH="$(brew --prefix grep)/libexec/gnubin:$PATH";
+
+# Add `$(brew --prefix apr)/bin` to the `$PATH`
+# export PATH="$(brew --prefix apr)/bin:$PATH";
+
+# Add `$(brew --prefix apr-util)/bin` to the `$PATH`
+# export PATH="$(brew --prefix apr-util)/bin:$PATH";
+
+# Add `$(brew --prefix openldap)/bin` and `$(brew --prefix openldap)/sbin` to the `$PATH`
+# OPENLDAP_PREFIX=$(brew --prefix openldap);
+# export PATH="$(OPENLDAP_PREFIX)/bin:$PATH";
+# export PATH="$(OPENLDAP_PREFIX)/sbin:$PATH";
+
+# Add `$(brew --prefix curl-openssl)/bin` to the `$PATH`
+# export PATH="$(brew --prefix curl-openssl)/bin:$PATH";
+
+# Add `$(brew --prefix sqlite)/bin` to the `$PATH`
+# export PATH="$(brew --prefix sqlite)/bin:$PATH";
+
+# Add `$(brew --prefix icu4c)/bin` and `$(brew --prefix icu4c)/sbin` to the `$PATH`
+# ICU4C_PREFIX=$(brew --prefix icu4c);
+# export PATH="$(ICU4C_PREFIX)/bin:$PATH";
+# export PATH="$(ICU4C_PREFIX)/sbin:$PATH";
+
+# Add `$(brew --prefix libpq)/bin` to the `$PATH`
+# export PATH="$(brew --prefix libpq)/bin:$PATH";
+
+# Add `$(brew --prefix binutils)/bin` to the `$PATH`
+# export PATH="$(brew --prefix binutils)/bin:$PATH";
+
+# Add `$(brew --prefix mysql-client)/bin` to the `$PATH`
+# export PATH="$(brew --prefix mysql-client)/bin:$PATH";
+
+# Add `$(brew --prefix qt)/bin` to the `$PATH`
+# export PATH="$(brew --prefix qt)/bin:$PATH";
